@@ -1,0 +1,20 @@
+.pink-and-black {
+    background-color: rgb(255, 168, 168);
+    color: #000000;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.bigger-text {
+    font-size: 24px;
+}
+
+#blue-text {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#green-and-black {
+    background-color: hsl(108, 82%, 70%);
+    color: black;
+    font-weight: bold;
+}

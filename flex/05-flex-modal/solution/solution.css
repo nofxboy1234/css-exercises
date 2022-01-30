@@ -68,9 +68,9 @@ button.cancel {
 /* SOLUTION: */
 
 .modal {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
+  display: flex; /* X */
+  gap: 16px; /* X */
+  padding: 16px; /* X */
 }
 
 .icon {
@@ -79,12 +79,12 @@ button.cancel {
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
+  display: flex; /* X */
+  align-items: center; /* X */
+  justify-content: space-between; /* X */
+  font-size: 18px; /* X */
+  font-weight: 700; /* X */
+  margin-bottom: 8px; /* X */
 }
 
 .text {

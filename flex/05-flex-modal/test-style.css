@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+}
+
+.item {
+    flex: 1 1 10%;
+}
+
+.item1 {
+    background: blue;
+    /* width: 100px; */
+    /* height: 100px; */
+    align-self: stretch;
+    flex: 1;
+}
+.item2 {
+    background: rgb(255, 0, 212);
+    width: 100px;
+    height: 100px;
+    flex: 2;
+}

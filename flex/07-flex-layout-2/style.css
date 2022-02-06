@@ -11,12 +11,12 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  
+
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding: 0 16px;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .footer {
@@ -25,16 +25,15 @@ body {
   color: darkmagenta;
 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
 
-  width: 300px;
-  flex: 0 0 auto;
+  flex-shrink: 0;
   padding: 16px;
 }
 
@@ -42,37 +41,36 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 300px;
-  height: 289px;
+
   padding: 16px;
+  margin: 16px;
+  width: 300px;
 }
 
-.middle {
+.body {
   flex: 1;
-  display: flex;
+  display: flex
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
-  padding: 48px;
-  /* justify-content: space-between; */
+li {
+  margin-bottom: 16px;
 }
 
 a {
-  text-decoration: none;
   color: white;
-}
-
-ul li {
-  margin-bottom: 16px;
+  text-decoration: none;
   font-size: 24px;
 }
+
+.container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
